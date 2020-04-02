@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+background-color: #3b5998;
+}
+.form{
+display: flex;
+justify-content: space-around;
+align-items: center;
+min-height: 100px;
+}
+.group{
+    margin-top: 10px;
+
+display: inline-block;
+}
+.group label{
+
+color:#fff;
+}
+input[type="submit"]{
+    
+background-color: #4267B2;
+    
+border: none;
+    
+height: 29px;
+    
+box-shadow: 1px 2px 2px 0px black;
+}
+.group span{
+    color: #EBEDF2;
+    font-size: 14px;
+}
+.content{
+background-color: #E3E6F0;
+}
+.content ul li p a{
+    color: black;
+    font-weight: 600px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.content ul li  p{
+    display:inline-block;
+    margin: 0;margin-left: 10px;
+    font-weight: 400;
+}
+.content ul li {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+.content ul{
+list-style: none;
+margin-top: 50px;
+padding: 0px;
+}
+.cntl{
+    width: 49%;
+    display: inline-block;
+}
+.form-group input::placeholder{
+    color: gray;
+    font-weight: 900px;
+    font-size: 20px;
+}
+
+.bir label{
+    font-weight:600;
+    margin-top: 16px;
+}
+span{
+color: gray;
+font-size: 18px;
+font-weight: 600;
+margin-left: 10px;
+}
+.para p{
+    font-size: 12px;
+    font-weight: 500;
+    /* margin-bottom: 22px; */
+    margin-top: 12px;
+}
+.para p a{
+  text-decoration: none;  
+}
+.btn-custom{
+    /* background-color: rgb(190, 247, 169); */
+    background-color: #69A354;
+    padding: 12px 52px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+hr{
+    
+border-top: 1px solid black;
+    
+width: 100%;
+    
+margin-left: 0;
+}
+.parag p{
+    
+color: gray;
+    
+font-size: 15px;
+    
+font-weight: 500;
+    
+margin-top: 25px;
+}
